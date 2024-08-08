@@ -1,0 +1,92 @@
+body{
+    background-image: url("imagens/spr.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 100vh;
+    margin: 0; 
+}
+
+.container{
+    background-color: transparent;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-width: 0px;
+    border-style: solid; 
+    height: 50vh;
+    margin-left: 50px;
+    margin-top: 20vh;
+    border-radius: 10px;
+    width: 50vh;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.free{
+    text-align: center;
+    align-self: center;
+    font-size: large;
+    border-radius: 15px;
+    border-color: aliceblue;
+    color: aliceblue;
+    background-color: rgb(25, 20, 20);
+    padding: 1px;
+    margin-right: 65px;
+    margin-left: 65px;
+    padding: 6px;
+}
+
+.pago{
+    text-align: center;
+    align-self: center;
+    font-size: large;
+ border: 1px solid;
+    border-radius: 15px;
+    border-color: aliceblue;
+    color: aliceblue;
+    background-color: rgb(9, 237, 100);
+    padding: 1px;
+    margin-right: 65px;
+    margin-left: 65px;
+    padding: 6px;
+}
+
+.log{
+    margin-top: 30px;
+    border-radius: 20px;
+    border-color: aliceblue;
+    color: aliceblue;
+    background-color: rgb(25, 20, 20);
+    padding: 5px;
+    margin-right: 190px; 
+    margin-left: 150vh;  
+    text-align: center;
+}
+
+
+
+h1{
+    border-left: 10px solid;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+.head{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+a h2 {
+    color: inherit; 
+}
